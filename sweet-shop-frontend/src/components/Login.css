@@ -1,0 +1,78 @@
+/* Full page background */
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffd1dc, #ffe6eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login card */
+.auth-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.auth-card h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background: #e63956;
+}
+
+/* Register link */
+.auth-card p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-card a {
+  color: #ff4d6d;
+  font-weight: bold;
+  text-decoration: none;
+}
+.auth-links {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.auth-links a {
+  font-size: 14px;
+  color: #ff4d6d;
+  text-decoration: none;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}

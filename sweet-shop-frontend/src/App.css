@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.auth-box {
+  background: white;
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.btn {
+  background: #ff3d67;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.sweet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 40px;
+}
+
+.sweet-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
